@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <div id="calculator">
+    <input type="text" id="display" disabled>
+    <div class="buttons">
+      <button class="button" onclick="signClick('+')">+</button>
+      <button class="button" onclick="numClick('1')">1</button>
+      <button class="button" onclick="numClick('2')">2</button>
+      <button class="button" onclick="numClick('3')">3</button>
+      <button class="button" onclick="signClick('-')">-</button>
+      <button class="button" onclick="numClick('4')">4</button>
+      <button class="button" onclick="numClick('5')">5</button>
+      <button class="button" onclick="numClick('6')">6</button>
+      <button class="button" onclick="signClick('*')">*</button>
+      <button class="button" onclick="numClick('7')">7</button>
+      <button class="button" onclick="numClick('8')">8</button>
+      <button class="button" onclick="numClick('9')">9</button>
+      <button class="button" onclick="signClick('/')">/</button>
+      <button class="button" id="equal" onclick="equalClick()">=</button>
+      <button class="button" onclick="numClick('0')">0</button>
+      <button class="button" onclick="dotClick()">.</button>
+      <button class="button" id="clear" onclick="clearClick()">C</button>
+      <button class="button" id="delete" onclick="delClick()">DEL</button>
+    </div>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+</html>
